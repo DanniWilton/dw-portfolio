@@ -28,7 +28,7 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Source Code Pro', monospace;
   }
   /* .logo {
     justify-self: start;
@@ -62,7 +62,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Source Code Pro', monospace;
   }
   .nav-contact {
     color: white;
@@ -72,7 +72,7 @@
     padding: 0.5rem 1rem;
     height: 100%;
     font-weight: bold;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Source Code Pro', monospace;
   }
   .nav-contact:hover {
     border-bottom: 4px solid #fff;
