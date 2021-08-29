@@ -4,10 +4,14 @@ import passwordgen from './Images/passwordgen.JPG';
 import evento from './Images/eventocapture.JPG';
 import readmegen from './Images/readmegen.JPG';
 import velvetsoapbox from './Images/velvetsoapbox.JPG';
+import skullstylist1 from './Images/skullstylist1.JPG';
 
 function Projects() {
     return (
         <div className="projectContainer">
+            <div className="project">
+                <img className="Projects" src={skullstylist1}/>
+            </div>
             <div className="project">
                 <img className="Projects" src={jsquiz}/>
             </div>
@@ -23,8 +27,6 @@ function Projects() {
             <div className="project">
                 <img className="Projects" src={velvetsoapbox}/>
             </div>
-            
-
         </div>
     )
 }
