@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Components/pages/Home.js';
 import Contact from './Components/pages/Contact';
+import Projects from './Components/pages/Projects';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
     <Switch>
       <Route path= '/' exact component={Home} />
       <Route path='/Contact' component={Contact} /> 
+      <Route path='/Projects' component={Projects} />
       
-      {/* <Route path='/Projects' component={Projects} />
+      {/* 
       <Route path='/Resume' component={Resume} />
 */}
     </Switch>
