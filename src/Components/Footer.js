@@ -16,46 +16,19 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
+            <h2>Contact Me</h2>
+            <Link to='/'>Contact Form <a href="https://docs.google.com/forms/d/1Pjq6hvm0usW-7Wfff0R0PXmymkhrKsWECDQ4-s4_MQM/edit?usp=sharing"><i class="fas fa-envelope-square"></i></a></Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>LinkedIn</Link>
-            <Link to='/'>Github</Link>
+            <h2>Social Media </h2>
+            <Link to='/'>LinkedIn <a href="https://www.linkedin.com/in/dannielle-wilton-030b42206"><i class="fab fa-linkedin-in"></i></a></Link>
+            <Link to='/'>Github <a href="https://github.com/DanniWilton"><i class="fab fa-github"></i></a></Link>
 
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-
-            </Link>
-          </div>
-          <div class='social-icons'>
-            
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'>
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
