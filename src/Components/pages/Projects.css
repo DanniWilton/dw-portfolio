@@ -1,0 +1,14 @@
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.Projects {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    background-image: url(../white-waves.png);
+}

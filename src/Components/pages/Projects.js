@@ -1,4 +1,4 @@
-// import 'Projects.css';
+import './Projects.css';
 import React from 'react';
 import jsquiz from './Images/jsquiz.JPG';
 import passwordgen from './Images/passwordgen.JPG';
@@ -9,7 +9,7 @@ import skullstylist1 from './Images/skullstylist1.JPG';
 
 function Projects() {
     return (
-        <div className="projectContainer">
+        <div className="project-container">
             <div className="project">
                 <img className="Projects" src={skullstylist1} alt="skull stylist project"/>
             </div>
