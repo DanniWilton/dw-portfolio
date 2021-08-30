@@ -19,6 +19,7 @@
   
   .footer-subscription > p {
     font-family: 'Source Code Pro', monospace;
+    margin: 0;
   }
   
   .footer-subscription-heading {
@@ -27,6 +28,7 @@
   }
   
   .footer-subscription-text {
+    margin: 0;
     font-size: 20px;
   }
   

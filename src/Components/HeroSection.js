@@ -6,7 +6,7 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <h1 className="landing-heading">Danni Wilton</h1>
-            <p>Full Stack Web Developer</p>
+            <div className="sub-heading">Full Stack Web Developer</div>
         </div>
     )
 }

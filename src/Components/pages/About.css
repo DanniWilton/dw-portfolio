@@ -1,14 +1,35 @@
 .about-me {
     background-color: white; 
     background-image: url(../white-waves.png);
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     object-fit: contain;
-    margin: 0;
-    height: 85vh;
+    height: 100vh;
     color: black;
     
+}
+p {
+    width: 65%;
+    margin-bottom: 155px;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+.profile-pic {
+    margin: 25px;
+}
+
+
+@media screen and (max-width: 620px) {
+    p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 450px) {
+    p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

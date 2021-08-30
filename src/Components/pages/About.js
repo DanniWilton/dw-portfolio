@@ -5,7 +5,7 @@ import ProfilePic from './Images/danniwilton.jpg'
 function About() {
     return(
         <section className="about-me">
-            <h1>About Danni Wilton (she/her)</h1>
+            <h1>Danni Wilton (she/her)</h1>
             <a href="https://github.com/DanniWilton">
                 <img className="profile-pic" src={ProfilePic} alt="Danni Wilton" width="150"/>
             </a>

@@ -17,7 +17,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Contact Me</h2>
-            <Link to='/'>Contact Form <a href="https://docs.google.com/forms/d/1Pjq6hvm0usW-7Wfff0R0PXmymkhrKsWECDQ4-s4_MQM/edit?usp=sharing"><i class="fas fa-envelope-square"></i></a></Link>
+            <Link to='/Contact'>Send me an Email <i class="fas fa-envelope-square"/></Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
