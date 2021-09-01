@@ -12,3 +12,8 @@
     background-color: whitesmoke;
     background-image: url(../white-waves.png);
 }
+a {
+    margin: 5px;
+    font-size: x-large; 
+    color: #bd4089ff;
+}
