@@ -7,7 +7,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Danni Wilton, the code witch
+          Danni Wilton, Full Stack Web Developer
         </p>
         <p className='footer-subscription-text'>
           Where to find me
